@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="assets\style.css">
+</head>
+<body>
+    <h2>Todo List</h2>
+
+  <input type="text" id="nuevaTareaInput" placeholder="Nueva tarea" />
+  <button onclick="agregarTarea()">Agregar</button>
+
+  <p>Total: <strong id="totalTareas"></strong></p>
+  <p>Realizadas: <strong id="tareasRealizadas"></strong></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Tarea</th>
+        <th>Completada</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody id="listaTareas"></tbody>
+  </table>
+
+  <script src="assets\main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: gray;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
